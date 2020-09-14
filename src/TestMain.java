@@ -157,6 +157,7 @@ public class TestMain {
         System.out.println("p1 is (" + examp.getX() + ", " + examp.getY() + ")");
         //This also will not work as the fields are private.
         //examp.x = 0;
+
     }
 
 }
