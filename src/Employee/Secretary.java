@@ -1,4 +1,4 @@
-package PoinPac;
+package Employee;
 
 public class Secretary extends Employee {
     public void takeDictation(String text){

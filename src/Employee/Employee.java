@@ -1,4 +1,4 @@
-package PoinPac;// 9.1 inheritance Basic
+package Employee;// 9.1 inheritance Basic
 //Code Reuse
 //The practice of writing program code once and using it in many contexts.
 //Object-oriented programming provides us with a feature called inheritance that increases our ability to reuse code
@@ -63,7 +63,7 @@ public class Employee {
 }
 // we can carte to class in one file as lon as we don't make both public
 
-/*class PoinPac.Secretary extends PoinPac.Employee {
+/*class Employee.Secretary extends Employee.Employee {
     public void takeDictation(String text){
         System.out.println("Dictating text: " + text);
     }
