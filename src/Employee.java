@@ -61,7 +61,7 @@ public class Employee {
 }
 // we can carte to class in one file as lon as we don't make both public
 
-class Secretaries extends Employee {
+class Secretary extends Employee {
     public void takeDictation(String text){
         System.out.println("Dictating text: " + text);
     }
