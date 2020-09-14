@@ -1,3 +1,4 @@
+package PoinPac;
 //Object Initialization: Constructors
 //Our fifth version of the Point class will include the ability to create Point objects at any initial location.
 // The initial state of objects is specified by writing constructors.

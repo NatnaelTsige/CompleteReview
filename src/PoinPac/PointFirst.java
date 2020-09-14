@@ -1,3 +1,4 @@
+package PoinPac;
 //This class is incomplete and only gives us an example of how to declare a Filed.
 // A filed is a internal state.
 // unlike a normal variable a filed is declared inside the class not ina methode.

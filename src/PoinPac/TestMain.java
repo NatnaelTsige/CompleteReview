@@ -1,3 +1,4 @@
+package PoinPac;
 // This class is test class (client program)  for each version point class we make.
 
 public class TestMain {

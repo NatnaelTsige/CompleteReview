@@ -1,3 +1,4 @@
+package PoinPac;
 //This is the final version of the point class.
 // 8.4 Encapsulation
 // Our next version of the point class will protect its data from unwanted access using a concept known as encapsulation.

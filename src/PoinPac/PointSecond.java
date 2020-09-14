@@ -1,3 +1,4 @@
+package PoinPac;
 // The second version of our Point class will contain both state and behavior.
 // Behavior of objects is specified by writing instance methods.
 // The instance methods of an object describe the messages to which that object can respond.

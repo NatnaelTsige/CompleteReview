@@ -23,6 +23,7 @@
         <statement>
     }
  */
+
 /*
 1. Employees work 40 hours per week.
 2. All employees earn a salary of $40,000 per year, with the
@@ -38,6 +39,7 @@
    know how to take dictation, and legal secretaries know how to file
    legal briefs.
  */
+
 
 // code for basic employee.
 public class Employee {
@@ -61,8 +63,8 @@ public class Employee {
 }
 // we can carte to class in one file as lon as we don't make both public
 
-class Secretary extends Employee {
+/*class Secretary extends Employee {
     public void takeDictation(String text){
         System.out.println("Dictating text: " + text);
     }
-}
+}*/
