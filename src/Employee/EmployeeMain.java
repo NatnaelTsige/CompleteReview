@@ -1,9 +1,13 @@
 package Employee;
 
-import PoinPac.Employee;
+//import PoinPac.Employee;
 
 public class EmployeeMain {
     public static void main(String[] args) {
+
+    }
+
+    public static void testOne(){
         System.out.print("Employee.Employee: ");
         Employee edna = new Employee();
         System.out.print(edna.getHours() + ", ");
@@ -18,5 +22,23 @@ public class EmployeeMain {
         System.out.print(stan.getVacationDays() + ", ");
         System.out.println(stan.getVacationForm());
         stan.takeDictation("hello");
+    }
+    public static void testTwo(){
+        System.out.print("Lawyer: ");
+        Lawyer lucy = new Lawyer();
+        System.out.print(lucy.getHours() + ", ");
+        System.out.printf("$%.2f, ", lucy.getSalary());
+        System.out.print(lucy.getVacationDays() + ", ");
+        System.out.println(lucy.getVacationForm());
+        lucy.sue();
+
+        System.out.print("Legal Secretary: ");
+        LegalSecretary leo = new LegalSecretary();
+        System.out.print(leo.getHours() + ", ");
+        System.out.printf("$%.2f, ", leo.getSalary());
+        System.out.print(leo.getVacationDays() + ", ");
+        System.out.println(leo.getVacationForm());
+        leo.takeDictation("neato");
+        leo.fileLegalBriefs();
     }
 }
